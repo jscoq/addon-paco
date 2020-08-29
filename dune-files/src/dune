@@ -1,0 +1,5 @@
+(coq.theory
+ (name Paco)
+ (package coq-paco)
+ (flags -w -implicit-core-hint-db))
+

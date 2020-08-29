@@ -1,0 +1,14 @@
+
+(rule
+ (targets coq-pkgs)
+ (deps
+  (package coq-paco))
+ (action
+  (run npx %{env:pkgtool=jscoq} build workdir/src --top Paco
+       --package coq-pkgs/paco.coq-pkg)))
+
+(alias
+ (name all)
+ (deps package.json))
+
+(dirs workdir)
