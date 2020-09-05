@@ -15,5 +15,4 @@ $(WORKDIR):
 	cp -r dune-files/* $(WORKDIR)/
 
 install:
-	dune install coq-ext-lib
-
+	dune install coq-paco
