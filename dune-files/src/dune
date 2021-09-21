@@ -1,5 +1,6 @@
 (coq.theory
  (name Paco)
  (package coq-paco)
+ (modules :standard \ examples)
  (flags -w -implicit-core-hint-db))
 

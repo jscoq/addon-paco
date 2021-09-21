@@ -1,6 +1,6 @@
 {
     "name": "@jscoq/paco",
-    "description": "Paco 4.1.1 for jsCoq 0.13",
+    "description": "Paco 4.1.1 for jsCoq",
     "version": "0.13.0",
     "files": ["README.md", "coq-pkgs"],    
     "repository": {
