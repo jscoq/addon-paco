@@ -1,5 +1,5 @@
 REPO = https://github.com/snu-sf/paco.git
-TAG = v4.1.1
+TAG = v4.1.2
 WORKDIR = workdir
 
 .PHONY: all get
